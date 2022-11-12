@@ -14,7 +14,7 @@ sudo apt-get upgrade -y
 sudo apt-get install git ruby -y
 
 # Clone this repo
-git clone https://github.com/sinedied/pi-midi-host
+git clone https://github.com/antiero/pi-midi-host
 cd pi-midi-host
 
 # Optimize for power efficiency and fast boot
@@ -76,9 +76,9 @@ cd ..
 
 # Turn on read-only mode
 # Use command "rw" to enable writes again
-ro
+# ro
 
-echo "The system will now reboot in read-only mode."
-echo "Use command \"rw\" to enable writes again."
+# echo "The system will now reboot in read-only mode."
+# echo "Use command \"rw\" to enable writes again."
 read -p "Press [enter] to reboot"
 sudo reboot
